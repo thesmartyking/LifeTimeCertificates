@@ -2,93 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>🏆 Life-Time Certificates | Kenil Doshi</title>
+    <title>🏆 LIFE-TIME CERTIFICATES | Kenil Doshi</title>
 
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
     <style>
-        *{
-          font-family: 'Poppins', sans-serif;
+        html {
           scroll-behavior: smooth;
         }
 
-        body{
-          background:
-            radial-gradient(circle at top left, rgba(59,130,246,0.15), transparent 30%),
-            radial-gradient(circle at top right, rgba(168,85,247,0.15), transparent 30%),
-            radial-gradient(circle at bottom, rgba(14,165,233,0.12), transparent 30%),
-            #020617;
+        body {
+          background: #020617;
+          overflow-x: hidden;
         }
 
-        .glass{
-          background: rgba(15, 23, 42, 0.7);
+        .glass {
+          background: rgba(15, 23, 42, 0.75);
           backdrop-filter: blur(16px);
           border: 1px solid rgba(255,255,255,0.08);
         }
 
-        .certificate-card:hover{
-          transform: translateY(-8px) scale(1.01);
+        .certificate-card:hover img {
+          transform: scale(1.03);
+        }
+
+        .certificate-card img {
           transition: 0.4s ease;
+        }
+
+        .glow {
           box-shadow:
-            0 0 30px rgba(59,130,246,0.25),
-            0 0 50px rgba(168,85,247,0.15);
-        }
-
-        .certificate-img{
-          height: 230px;
-          object-fit: cover;
-        }
-
-        .tag{
-          background: rgba(255,255,255,0.08);
-          border: 1px solid rgba(255,255,255,0.08);
-        }
-
-        .section-title{
-          background: linear-gradient(to right,#60a5fa,#c084fc);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          0 0 15px rgba(59,130,246,0.25),
+          0 0 40px rgba(99,102,241,0.15);
         }
     </style>
 </head>
 
-<body class="text-white">
+<body class="text-white font-sans">
 
 <!-- HERO SECTION -->
 <section class="relative overflow-hidden">
 
-    <div class="absolute inset-0 opacity-20">
-        <div class="absolute top-0 left-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
-        <div class="absolute top-40 right-0 w-96 h-96 bg-purple-500 rounded-full blur-3xl"></div>
-    </div>
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-blue-950 to-black"></div>
 
-    <div class="relative max-w-7xl mx-auto px-6 py-20">
+    <div class="absolute top-0 left-0 w-96 h-96 bg-blue-500/20 blur-3xl rounded-full"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500/20 blur-3xl rounded-full"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6 py-24">
 
         <div class="text-center">
 
-            <div class="inline-flex items-center gap-3 px-5 py-2 rounded-full glass mb-8">
-                <span class="text-2xl">🏆</span>
-                <span class="tracking-widest uppercase text-sm text-slate-300">
-          Life-Time Learning Vault
-        </span>
+            <div class="inline-flex items-center gap-3 px-6 py-3 rounded-full glass mb-8">
+                <span class="text-yellow-400 text-2xl">🏆</span>
+                <span class="tracking-widest text-sm uppercase text-slate-300">
+            Lifetime Learning Portfolio
+          </span>
             </div>
 
-            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
-                LIFE-TIME <br>
-                <span class="section-title">CERTIFICATES</span>
+            <h1 class="text-5xl md:text-7xl font-black leading-tight">
+                LIFE-TIME
+                <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            CERTIFICATES
+          </span>
             </h1>
 
-            <p class="max-w-4xl mx-auto text-slate-300 text-lg leading-9">
-                A curated constellation of certifications earned through continuous learning,
-                Android architecture battles, debugging marathons, Kotlin wizardry,
-                software engineering exploration, leadership growth, and relentless curiosity 🚀
+            <p class="max-w-4xl mx-auto mt-8 text-lg md:text-xl text-slate-300 leading-relaxed">
+                A digital vault of learning, architecture battles, debugging marathons,
+                leadership evolution, and relentless curiosity. 🚀
+            </p>
+
+            <p class="max-w-5xl mx-auto mt-5 text-slate-400 text-lg leading-relaxed">
+                Curated constellation of certifications earned through continuous learning,
+                real-world engineering practice, architectural exploration, leadership growth,
+                and modern engineering ecosystems across Android, Kotlin, Software Architecture,
+                Web Development, Communication, Leadership, and beyond. 📚⚡
             </p>
 
             <div class="mt-10 flex flex-wrap justify-center gap-4">
@@ -106,325 +95,253 @@
                 </div>
 
             </div>
-        </div>
 
+            <div class="mt-12 flex flex-wrap justify-center gap-4">
+
+                <div class="glass px-6 py-4 rounded-2xl">
+                    <h3 class="text-3xl font-bold text-cyan-400">30+</h3>
+                    <p class="text-slate-400 text-sm mt-1">Professional Certifications</p>
+                </div>
+
+                <div class="glass px-6 py-4 rounded-2xl">
+                    <h3 class="text-3xl font-bold text-indigo-400">10+</h3>
+                    <p class="text-slate-400 text-sm mt-1">Technology Domains</p>
+                </div>
+
+                <div class="glass px-6 py-4 rounded-2xl">
+                    <h3 class="text-3xl font-bold text-emerald-400">5+</h3>
+                    <p class="text-slate-400 text-sm mt-1">Architecture Stacks</p>
+                </div>
+
+                <div class="glass px-6 py-4 rounded-2xl">
+                    <h3 class="text-3xl font-bold text-pink-400">∞</h3>
+                    <p class="text-slate-400 text-sm mt-1">Learning Mindset + Curiosity Level</p>
+                </div>
+
+            </div>
+
+        </div>
     </div>
 </section>
 
-<!-- STATS -->
-<section class="max-w-7xl mx-auto px-6 pb-16">
+<!-- MAIN CONTENT -->
+<main class="max-w-7xl mx-auto px-6 py-16">
 
-    <div class="grid md:grid-cols-4 gap-6">
+    <!-- SECTION -->
+    <section class="mb-20">
 
-        <div class="glass rounded-3xl p-8 text-center">
-            <h2 class="text-5xl font-bold text-cyan-400">30+</h2>
-            <p class="mt-2 text-slate-300">Certificates</p>
+        <div class="flex items-center gap-4 mb-10">
+            <div class="w-2 h-12 bg-cyan-400 rounded-full"></div>
+            <h2 class="text-4xl font-black">🤖 Android Development</h2>
         </div>
 
-        <div class="glass rounded-3xl p-8 text-center">
-            <h2 class="text-5xl font-bold text-violet-400">10+</h2>
-            <p class="mt-2 text-slate-300">Technology Domains</p>
-        </div>
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
 
-        <div class="glass rounded-3xl p-8 text-center">
-            <h2 class="text-5xl font-bold text-emerald-400">5+</h2>
-            <p class="mt-2 text-slate-300">Architecture Stacks</p>
-        </div>
+            <!-- CARD -->
+            <div class="certificate-card glass rounded-3xl overflow-hidden glow">
 
-        <div class="glass rounded-3xl p-8 text-center">
-            <h2 class="text-5xl font-bold text-pink-400">∞</h2>
-            <p class="mt-2 text-slate-300">Curiosity Level</p>
-        </div>
-
-    </div>
-</section>
-
-<!-- ANDROID SECTION -->
-<section class="max-w-7xl mx-auto px-6 py-10">
-
-    <div class="mb-12">
-        <h2 class="text-4xl font-bold section-title mb-4">
-            🤖 Android Development
-        </h2>
-
-        <p class="text-slate-400 text-lg">
-            Modern Android engineering ecosystem including MVVM, Clean Architecture,
-            TDD, HILT, Coroutines, Jetpack Compose, RxJava, and scalable application development.
-        </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <!-- CARD -->
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
-
-            <img
-                    class="certificate-img w-full"
-                    src="https://udemy-certificate.s3.amazonaws.com/image/UC-3756bfba-841e-4c44-8b4c-c198c0a84f5f.jpg?v=1625058614000"
-            />
-
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold leading-8">
-                    Android Unit Testing & TDD
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">Android</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">TDD</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Unit Testing</span>
+                <div class="overflow-hidden">
+                    <img
+                            src="https://udemy-certificate.s3.amazonaws.com/image/UC-3756bfba-841e-4c44-8b4c-c198c0a84f5f.jpg?v=1625058614000"
+                            class="w-full h-64 object-cover"
+                            alt="Android Unit Testing"
+                    />
                 </div>
 
-                <a
-                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-3756bfba-841e-4c44-8b4c-c198c0a84f5f.jpg?v=1625058614000"
-                        target="_blank"
-                        class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate 🚀
-                </a>
+                <div class="p-6">
 
+                    <h3 class="text-2xl font-bold mb-4 leading-snug">
+                        Android Unit Testing and Test Driven Development
+                    </h3>
+
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">Android</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">TDD</span>
+                        <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm">Unit Testing</span>
+                    </div>
+
+                    <a
+                            href="https://udemy-certificate.s3.amazonaws.com/image/UC-3756bfba-841e-4c44-8b4c-c198c0a84f5f.jpg?v=1625058614000"
+                            target="_blank"
+                            class="inline-block w-full text-center bg-gradient-to-r from-cyan-500 to-blue-600 hover:scale-105 transition py-3 rounded-xl font-semibold"
+                    >
+                        View Certificate 🚀
+                    </a>
+
+                </div>
             </div>
-        </div>
 
-        <!-- CARD -->
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
+            <!-- CARD -->
+            <div class="certificate-card glass rounded-3xl overflow-hidden glow">
 
-            <img
-                    class="certificate-img w-full"
-                    src="https://udemy-certificate.s3.amazonaws.com/image/UC-e4fdd55b-ffa2-421c-b0a6-f9e2f10a292d.jpg?v=1632757030000"
-            />
-
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold leading-8">
-                    Clean Architecture + HILT + Espresso
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">Kotlin</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">HILT</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Architecture</span>
+                <div class="overflow-hidden">
+                    <img
+                            src="https://udemy-certificate.s3.amazonaws.com/image/UC-2f0b5782-8c8c-484a-8677-db64e75fcc77.jpg?v=1603029832000"
+                            class="w-full h-64 object-cover"
+                            alt="Android MVVM"
+                    />
                 </div>
 
-                <a
-                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-e4fdd55b-ffa2-421c-b0a6-f9e2f10a292d.jpg?v=1632757030000"
-                        target="_blank"
-                        class="mt-6 inline-block bg-violet-500 hover:bg-violet-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate ⚡
-                </a>
+                <div class="p-6">
 
+                    <h3 class="text-2xl font-bold mb-4">
+                        Latest Android Technologies with MVVM & Dagger2
+                    </h3>
+
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">MVVM</span>
+                        <span class="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-sm">Dagger2</span>
+                        <span class="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">RxJava</span>
+                        <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm">Retrofit</span>
+                    </div>
+
+                    <a
+                            href="https://udemy-certificate.s3.amazonaws.com/image/UC-2f0b5782-8c8c-484a-8677-db64e75fcc77.jpg?v=1603029832000"
+                            target="_blank"
+                            class="inline-block w-full text-center bg-gradient-to-r from-indigo-500 to-purple-600 hover:scale-105 transition py-3 rounded-xl font-semibold"
+                    >
+                        View Certificate ⚡
+                    </a>
+
+                </div>
             </div>
-        </div>
 
-        <!-- CARD -->
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
+            <!-- CARD -->
+            <div class="certificate-card glass rounded-3xl overflow-hidden glow">
 
-            <img
-                    class="certificate-img w-full"
-                    src="/LifeTimeCertificates/Certificates/img_2.png"
-            />
-
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold leading-8">
-                    Beginners to Android App Development
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">Android</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Jetpack</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Coroutines</span>
+                <div class="overflow-hidden">
+                    <img
+                            src="https://udemy-certificate.s3.amazonaws.com/image/UC-e4fdd55b-ffa2-421c-b0a6-f9e2f10a292d.jpg?v=1632757030000"
+                            class="w-full h-64 object-cover"
+                            alt="Clean Architecture"
+                    />
                 </div>
 
-                <a
-                        href="/LifeTimeCertificates/Certificates/img_2.png"
-                        target="_blank"
-                        class="mt-6 inline-block bg-cyan-500 hover:bg-cyan-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate 📱
-                </a>
+                <div class="p-6">
 
+                    <h3 class="text-2xl font-bold mb-4">
+                        Master Android Development with Clean Architecture
+                    </h3>
+
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-red-500/20 text-red-300 px-3 py-1 rounded-full text-sm">Kotlin</span>
+                        <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">HILT</span>
+                        <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm">Espresso</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Architecture</span>
+                    </div>
+
+                    <a
+                            href="https://udemy-certificate.s3.amazonaws.com/image/UC-e4fdd55b-ffa2-421c-b0a6-f9e2f10a292d.jpg?v=1632757030000"
+                            target="_blank"
+                            class="inline-block w-full text-center bg-gradient-to-r from-purple-500 to-pink-600 hover:scale-105 transition py-3 rounded-xl font-semibold"
+                    >
+                        View Certificate 🏆
+                    </a>
+
+                </div>
             </div>
+
+        </div>
+    </section>
+
+    <!-- SOFTWARE ARCHITECTURE -->
+    <section class="mb-20">
+
+        <div class="flex items-center gap-4 mb-10">
+            <div class="w-2 h-12 bg-purple-400 rounded-full"></div>
+            <h2 class="text-4xl font-black">
+                🛠️ Software Architecture & Engineering
+            </h2>
         </div>
 
-    </div>
-</section>
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
 
-<!-- KOTLIN SECTION -->
-<section class="max-w-7xl mx-auto px-6 py-16">
+            <!-- CARD -->
+            <div class="certificate-card glass rounded-3xl overflow-hidden glow">
 
-    <div class="mb-12">
-        <h2 class="text-4xl font-bold section-title mb-4">
-            ☕ Kotlin & Java Development
-        </h2>
-
-        <p class="text-slate-400 text-lg">
-            Kotlin ecosystem mastery from beginner foundations to Spring Boot backend systems,
-            advanced development, and modern JVM engineering.
-        </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
-
-            <img
-                    class="certificate-img w-full"
-                    src="https://udemy-certificate.s3.amazonaws.com/image/UC-c6c0e074-c055-4883-9419-351da600658c.jpg?v=1655556303000"
-            />
-
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold">
-                    Kotlin Quick Start for Java Developers
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">Kotlin</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Java</span>
+                <div class="overflow-hidden">
+                    <img
+                            src="https://udemy-certificate.s3.amazonaws.com/image/UC-1912621d-9070-4217-ab18-ec07a7958209.jpg?v=1656319818000"
+                            class="w-full h-64 object-cover"
+                            alt="SOLID"
+                    />
                 </div>
 
-                <a
-                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-c6c0e074-c055-4883-9419-351da600658c.jpg?v=1655556303000"
-                        target="_blank"
-                        class="mt-6 inline-block bg-emerald-500 hover:bg-emerald-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate 💚
-                </a>
+                <div class="p-6">
 
+                    <h3 class="text-2xl font-bold mb-4">
+                        SOLID Principles of Object Oriented Design
+                    </h3>
+
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">SOLID</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Architecture</span>
+                        <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm">OOP</span>
+                    </div>
+
+                    <a
+                            href="https://udemy-certificate.s3.amazonaws.com/image/UC-1912621d-9070-4217-ab18-ec07a7958209.jpg?v=1656319818000"
+                            target="_blank"
+                            class="inline-block w-full text-center bg-gradient-to-r from-fuchsia-500 to-purple-600 hover:scale-105 transition py-3 rounded-xl font-semibold"
+                    >
+                        View Certificate 📘
+                    </a>
+
+                </div>
             </div>
+
+        </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="mb-20">
+
+        <div class="flex items-center gap-4 mb-10">
+            <div class="w-2 h-12 bg-pink-400 rounded-full"></div>
+            <h2 class="text-4xl font-black">
+                📊 Management & Leadership
+            </h2>
         </div>
 
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
 
-            <img
-                    class="certificate-img w-full"
-                    src="https://udemy-certificate.s3.amazonaws.com/image/UC-f54eda62-dd96-4cbd-98c3-4e7d24eb35d6.jpg?v=1603711378000"
-            />
+            <!-- CARD -->
+            <div class="certificate-card glass rounded-3xl overflow-hidden glow">
 
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold">
-                    Spring Boot with Kotlin
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">Spring Boot</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Backend</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Kotlin</span>
+                <div class="overflow-hidden">
+                    <img
+                            src="https://udemy-certificate.s3.amazonaws.com/image/UC-e76ff37f-3cd9-4413-90e4-16c0956deced.jpg?v=1648283259000"
+                            class="w-full h-64 object-cover"
+                            alt="Leadership"
+                    />
                 </div>
 
-                <a
-                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-f54eda62-dd96-4cbd-98c3-4e7d24eb35d6.jpg?v=1603711378000"
-                        target="_blank"
-                        class="mt-6 inline-block bg-orange-500 hover:bg-orange-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate 🔥
-                </a>
+                <div class="p-6">
 
-            </div>
-        </div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        Think Like a Leader with Brian Tracy
+                    </h3>
 
-    </div>
-</section>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">Leadership</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Management</span>
+                    </div>
 
-<!-- EMBEDDED -->
-<section class="max-w-7xl mx-auto px-6 py-16">
+                    <a
+                            href="https://udemy-certificate.s3.amazonaws.com/image/UC-e76ff37f-3cd9-4413-90e4-16c0956deced.jpg?v=1648283259000"
+                            target="_blank"
+                            class="inline-block w-full text-center bg-gradient-to-r from-pink-500 to-rose-600 hover:scale-105 transition py-3 rounded-xl font-semibold"
+                    >
+                        View Certificate 👑
+                    </a>
 
-    <div class="mb-12">
-        <h2 class="text-4xl font-bold section-title mb-4">
-            🔌 Embedded Systems & IoT
-        </h2>
-
-        <p class="text-slate-400 text-lg">
-            Hardware simulation, Arduino engineering, embedded logic, and IoT experimentation.
-        </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
-
-            <img
-                    class="certificate-img w-full"
-                    src="/LifeTimeCertificates/Certificates/img_3.png"
-            />
-
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold">
-                    Arduino Boards & Simulation
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">Arduino</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">IoT</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Embedded</span>
                 </div>
-
-                <a
-                        href="/LifeTimeCertificates/Certificates/img_3.png"
-                        target="_blank"
-                        class="mt-6 inline-block bg-pink-500 hover:bg-pink-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate ⚙️
-                </a>
-
             </div>
+
         </div>
+    </section>
 
-    </div>
-</section>
-
-<!-- SOFTWARE ARCHITECTURE -->
-<section class="max-w-7xl mx-auto px-6 py-16">
-
-    <div class="mb-12">
-        <h2 class="text-4xl font-bold section-title mb-4">
-            🛠️ Software Architecture & Engineering
-        </h2>
-
-        <p class="text-slate-400 text-lg">
-            Engineering principles, scalable architectures, OOP design patterns,
-            SDLC, maintainable systems, and modern software craftsmanship.
-        </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <div class="certificate-card glass rounded-3xl overflow-hidden">
-
-            <img
-                    class="certificate-img w-full"
-                    src="https://udemy-certificate.s3.amazonaws.com/image/UC-1912621d-9070-4217-ab18-ec07a7958209.jpg?v=1656319818000"
-            />
-
-            <div class="p-6">
-
-                <h3 class="text-xl font-bold">
-                    SOLID Principles & Architecture
-                </h3>
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <span class="tag px-3 py-1 rounded-full text-sm">SOLID</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">OOP</span>
-                    <span class="tag px-3 py-1 rounded-full text-sm">Architecture</span>
-                </div>
-
-                <a
-                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-1912621d-9070-4217-ab18-ec07a7958209.jpg?v=1656319818000"
-                        target="_blank"
-                        class="mt-6 inline-block bg-indigo-500 hover:bg-indigo-600 px-5 py-3 rounded-xl font-semibold transition"
-                >
-                    View Certificate 🧠
-                </a>
-
-            </div>
-        </div>
-
-    </div>
-</section>
+</main>
 
 <!-- FOOTER -->
 <footer class="mt-24 border-t border-white/10">
@@ -454,7 +371,7 @@
                 </a>
 
                 <a
-                        href="https://thesmartyking.github.io/LifeTimeCertificates/"
+                        href="https://thesmartyking.github.io/LifeTimeCertificates/index0.html"
                         target="_blank"
                         class="glass px-6 py-3 rounded-2xl hover:scale-105 transition"
                 >
