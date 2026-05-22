@@ -1,6 +1,7 @@
 # 🏆 LIFE-TIME CERTIFICATES
 
 > A digital vault of learning, architecture battles, debugging marathons, leadership evolution, and endless curiosity 🚀
+> 
 > Curated constellation of certifications earned through continuous learning, real-world engineering practice, architectural exploration, leadership growth, and relentless curiosity across Android, Kotlin, Software Architecture, Web Development, Communication, and Modern Engineering ecosystems 🚀📚
 
 ---
